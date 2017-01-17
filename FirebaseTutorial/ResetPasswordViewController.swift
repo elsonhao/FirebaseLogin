@@ -42,7 +42,7 @@ class ResetPasswordViewController: UIViewController {
 
                 } else {
                     print("good")
-                    title2 = "Success!"
+                    title2 = "Successful!"
                     message2 = "Password reset email sent."
                     self.emailTextField.text = ""
                 }
